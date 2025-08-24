@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "name": "Urban Heat Island Map",
+    "description": "Urban Heat Island Map",
+    "version": "1.0.0",
+    "created_date": "2024-01-01"
+  },
+  "data_source": {
+    "region": "Vancouver Metropolitan Area",
+    "year": "2018",
+    "coordinate_system": "EPSG:3347",
+    "total_areas": 1660
+  },
+  "seasons": {
+    "SD": {
+      "name": "Summer Daytime",
+      "description": "Summer Daytime",
+      "data_count": 1660
+    },
+    "SN": {
+      "name": "Summer Nighttime",
+      "description": "Summer Nighttime",
+      "data_count": 1660
+    },
+    "WD": {
+      "name": "Winter Daytime",
+      "description": "Winter Daytime",
+      "data_count": 1660
+    },
+    "WN": {
+      "name": "Winter Nighttime",
+      "description": "Winter Nighttime",
+      "data_count": 1660
+    }
+  }
+}

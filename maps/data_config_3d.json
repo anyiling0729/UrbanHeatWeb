@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "name": "Urban Heat Island 3D Map",
+    "description": "Urban Heat Island 3D Map with Real Data",
+    "version": "2.0.0",
+    "created_date": "2024-01-01"
+  },
+  "data_source": {
+    "region": "Vancouver Metropolitan Area",
+    "year": "2018",
+    "coordinate_system": "EPSG:3347",
+    "total_areas": 1660,
+    "data_loaded": true
+  },
+  "indicators": {
+    "UHI_SD": {
+      "name": "UHI Summer Daytime",
+      "unit": "°C",
+      "color": "#ff6b6b",
+      "stats": {
+        "min": -10.278404235839844,
+        "max": 4.957732200622559,
+        "mean": 0.702938347571232,
+        "count": 1660
+      }
+    },
+    "UHI_SN": {
+      "name": "UHI Summer Nighttime",
+      "unit": "°C",
+      "color": "#4ecdc4",
+      "stats": {
+        "min": -1.236732607216462,
+        "max": 1.920900344848633,
+        "mean": 0.6346440448035702,
+        "count": 1660
+      }
+    },
+    "UHI_WD": {
+      "name": "UHI Winter Daytime",
+      "unit": "°C",
+      "color": "#45b7d1",
+      "stats": {
+        "min": -2.719250440597534,
+        "max": 1.709198594093323,
+        "mean": 0.2812741952261625,
+        "count": 1660
+      }
+    },
+    "UHI_WN": {
+      "name": "UHI Winter Nighttime",
+      "unit": "°C",
+      "color": "#96ceb4",
+      "stats": {
+        "min": -1.708740234375,
+        "max": 2.314732074737549,
+        "mean": 0.40360746722834934,
+        "count": 1660
+      }
+    },
+    "bcr": {
+      "name": "Building Coverage Rate",
+      "unit": "%",
+      "color": "#ffa726",
+      "stats": {
+        "min": 0.1001122394376,
+        "max": 0.799058867196664,
+        "mean": 0.44203836028362636,
+        "count": 1660
+      }
+    },
+    "height_mea": {
+      "name": "Average Height",
+      "unit": "m",
+      "color": "#ab47bc",
+      "stats": {
+        "min": 5.015376545322946,
+        "max": 49.99078090857167,
+        "mean": 28.03337572118619,
+        "count": 1660
+      }
+    },
+    "nvdi_mean_": {
+      "name": "Summer Vegetation Index",
+      "unit": "",
+      "color": "#66bb6a",
+      "stats": {
+        "min": -0.198430483871504,
+        "max": 0.799349354982491,
+        "mean": 0.29804690347576357,
+        "count": 1660
+      }
+    },
+    "nvdi_mea_1": {
+      "name": "Winter Vegetation Index",
+      "unit": "",
+      "color": "#26a69a",
+      "stats": {
+        "min": -0.199673192125097,
+        "max": 0.799074035372211,
+        "mean": 0.30726869734314927,
+        "count": 1660
+      }
+    },
+    "poi_densit": {
+      "name": "POI Density",
+      "unit": "/km²",
+      "color": "#ef5350",
+      "stats": {
+        "min": 0.0,
+        "max": 41461.32286323038,
+        "mean": 387.6760468463676,
+        "count": 1660
+      }
+    },
+    "road_densi": {
+      "name": "Road Density",
+      "unit": "km/km²",
+      "color": "#42a5f5",
+      "stats": {
+        "min": 2.002476063737866,
+        "max": 19.999148434379737,
+        "mean": 11.17089679862582,
+        "count": 1660
+      }
+    },
+    "distance_t": {
+      "name": "Distance to Water Body",
+      "unit": "km",
+      "color": "#29b6f6",
+      "stats": {
+        "min": 0.513400175859781,
+        "max": 5075.322810473916,
+        "mean": 508.8713479360651,
+        "count": 1660
+      }
+    },
+    "watercours": {
+      "name": "Distance to Watercourse",
+      "unit": "km",
+      "color": "#26c6da",
+      "stats": {
+        "min": 0.282251439711111,
+        "max": 1958.3020192943632,
+        "mean": 296.30516329048976,
+        "count": 1660
+      }
+    }
+  },
+  "features": {
+    "interactive_charts": true,
+    "real_geometry": true,
+    "multi_indicator": true,
+    "dynamic_visualization": true
+  }
+}
