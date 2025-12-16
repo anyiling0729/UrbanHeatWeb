@@ -1,5 +1,11 @@
 # UrbanHeatWeb
 
+## 🌐 Live Website
+
+**👉 [Visit Live Website: https://anyiling0729.github.io/UrbanHeatWeb/](https://anyiling0729.github.io/UrbanHeatWeb/)**
+
+---
+
 A web application for visualizing and analyzing urban heat island effects using interactive maps and data visualization tools.
 
 ## Related Paper
@@ -93,5 +99,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Live Website**: [https://anyiling0729.github.io/UrbanHeatWeb/](https://anyiling0729.github.io/UrbanHeatWeb/)
 - **Project Link**: [https://github.com/anyiling0729/UrbanHeatWeb](https://github.com/anyiling0729/UrbanHeatWeb)
