@@ -2,7 +2,7 @@
 
 ## 🌐 Live Website
 
-**👉 [Visit Live Website: https://anyiling0729.github.io/UrbanHeatWeb/](https://anyiling0729.github.io/UrbanHeatWeb/)**
+**Visit Live Website:** [https://anyiling0729.github.io/UrbanHeatWeb/](https://anyiling0729.github.io/UrbanHeatWeb/)
 
 ---
 
