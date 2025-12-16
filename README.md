@@ -93,4 +93,5 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- Project Link: [https://github.com/anyiling0729/UrbanHeatWeb](https://github.com/anyiling0729/UrbanHeatWeb)
+- **Live Website**: [https://anyiling0729.github.io/UrbanHeatWeb/](https://anyiling0729.github.io/UrbanHeatWeb/)
+- **Project Link**: [https://github.com/anyiling0729/UrbanHeatWeb](https://github.com/anyiling0729/UrbanHeatWeb)
