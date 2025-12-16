@@ -2,6 +2,19 @@
 
 A web application for visualizing and analyzing urban heat island effects using interactive maps and data visualization tools.
 
+## Related Paper
+
+This project is based on the following research:
+
+**Fairness-Oriented Urban Heat Island Modeling and Mitigation Strategy Research Based on Machine Learning**
+
+- **Journal**: Buildings (MDPI)
+- **Online Link**: [https://www.mdpi.com/2075-5309/15/21/3820](https://www.mdpi.com/2075-5309/15/21/3820?utm_source=researchgate.net&utm_medium=article)
+- **DOI**: 10.3390/buildings15213820
+- **PDF File**: The full paper PDF is available in the project directory as `buildings-15-03820.pdf`
+
+This research explores the interaction between urban environmental features and social vulnerability for equitable climate adaptation planning in Vancouver's diverse urban landscape.
+
 ## Features
 
 - **Interactive Maps**: 2D and 3D comparison maps for urban heat analysis

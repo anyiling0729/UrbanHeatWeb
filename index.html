@@ -55,9 +55,6 @@
                         <a class="nav-link" href="#results">Results</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#equity">Equity</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#conclusion">Conclusion</a>
                     </li>
                 </ul>
@@ -133,6 +130,15 @@
                                     <i class="fas fa-book-open me-2"></i>Learn More
                                 </a>
                             </div>
+                            
+                            <!-- Publication Link -->
+                            <div class="publication-link mt-4">
+                                <a href="https://www.mdpi.com/2075-5309/15/21/3820?utm_source=researchgate.net&utm_medium=article" 
+                                   target="_blank" 
+                                   class="btn btn-outline-light btn-sm">
+                                    <i class="fas fa-file-alt me-2"></i>View Related Paper
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-5">
@@ -170,6 +176,13 @@
                         <span class="section-badge">Research Foundation</span>
                         <h2 class="section-title">Research Background</h2>
                         <p class="section-subtitle">Understanding the intersection of urban heat islands and social vulnerability</p>
+                        <div class="publication-reference mt-4">
+                            <a href="https://www.mdpi.com/2075-5309/15/21/3820?utm_source=researchgate.net&utm_medium=article" 
+                               target="_blank" 
+                               class="btn btn-outline-dark">
+                                <i class="fas fa-external-link-alt me-2"></i>View Related Paper on MDPI
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -535,7 +548,7 @@
                                             <div class="header-icon featured">
                                                 <i class="fas fa-cube"></i>
                                             </div>
-                                            <h5>3D Interactive Map <span class="badge bg-primary ms-2">New Feature</span></h5>
+                                            <h5>3D Interactive Map</h5>
                                         </div>
                                         <div class="map-card-body">
                                             <p>Brand new 3D interactive map system, supporting multi-dimensional indicator visualization, dynamic color mapping, and detailed data analysis. Provides sidebar control panel and interactive chart functionality.</p>
@@ -712,360 +725,6 @@
         </div>
     </section>
 
-    <!-- Data Visualization Section -->
-    <section id="data-visualization" class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-title">Data Visualization Analysis</h2>
-                                            <p class="section-subtitle">Data Visualization Analysis</p>
-                </div>
-            </div>
-            
-            <!-- UHI Distribution Heatmap -->
-            <div class="row mb-5">
-                <div class="col-lg-8">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-chart-area me-2"></i>UHI Distribution Heatmap</h5>
-                        <div class="chart-wrapper">
-                            <canvas id="uhiHeatmapChart" height="400"></canvas>
-                        </div>
-                        <p class="chart-description">UHI distribution heatmap of 1,660 dissemination areas in the Vancouver region, darker colors indicate higher UHI values</p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="chart-stats">
-                        <h6>Statistical Summary</h6>
-                        <div class="stat-card">
-                            <span class="stat-value">-10.28°C</span>
-                            <span class="stat-label">Minimum UHI</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-value">+4.96°C</span>
-                            <span class="stat-label">Maximum UHI</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-value">0.70°C</span>
-                            <span class="stat-label">Average UHI</span>
-                        </div>
-                        <div class="stat-card">
-                            <span class="stat-value">15.24°C</span>
-                            <span class="stat-label">Temperature Range</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Seasonal Variation Comparison -->
-            <div class="row mb-5">
-                <div class="col-lg-6">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-chart-line me-2"></i>Seasonal Variation Comparison</h5>
-                        <div class="chart-wrapper">
-                            <canvas id="seasonalComparisonChart" height="300"></canvas>
-                        </div>
-                        <p class="chart-description">UHI value distribution comparison across four seasonal scenarios</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-chart-bar me-2"></i>Model Performance Comparison</h5>
-                        <div class="chart-wrapper">
-                            <canvas id="modelPerformanceChart" height="300"></canvas>
-                        </div>
-                        <p class="chart-description">R² performance of models under different seasonal scenarios</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Feature Importance Analysis -->
-            <div class="row mb-5">
-                <div class="col-lg-12">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-chart-pie me-2"></i>Environmental Feature Importance Analysis</h5>
-                        <div class="row">
-                            <div class="col-lg-8">
-                                <div class="chart-wrapper">
-                                    <canvas id="featureImportanceChart" height="350"></canvas>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="feature-importance-details">
-                                    <h6>Feature Description</h6>
-                                    <div class="feature-item">
-                                        <span class="feature-color" style="background: #1a1a1a;"></span>
-                                        <span><strong>NDVI:</strong> Vegetation Index</span>
-                                    </div>
-                                    <div class="feature-item">
-                                        <span class="feature-color" style="background: #333333;"></span>
-                                        <span><strong>BCR:</strong> Building Coverage Ratio</span>
-                                    </div>
-                                    <div class="feature-item">
-                                        <span class="feature-color" style="background: #666666;"></span>
-                                        <span><strong>Water:</strong> Water Body Distance</span>
-                                    </div>
-                                    <div class="feature-item">
-                                        <span class="feature-color" style="background: #999999;"></span>
-                                        <span><strong>Height:</strong> Building Height</span>
-                                    </div>
-                                    <div class="feature-item">
-                                        <span class="feature-color" style="background: #cccccc;"></span>
-                                        <span><strong>POI:</strong> Point of Interest Density</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Intervention Strategy Effectiveness Analysis -->
-            <div class="row mb-5">
-                <div class="col-lg-12">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-chart-line me-2"></i>Intervention Strategy Effectiveness Analysis</h5>
-                        <div class="chart-wrapper">
-                            <canvas id="interventionEffectChart" height="400"></canvas>
-                        </div>
-                        <p class="chart-description">Cooling effect comparison of different environmental intervention strategies, showing effects from 0.0x to 2.0x scaling</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Social Equity Analysis -->
-            <div class="row mb-5">
-                <div class="col-lg-6">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-balance-scale me-2"></i>Social Group UHI Exposure Differences</h5>
-                        <div class="chart-wrapper">
-                            <canvas id="socialEquityChart" height="300"></canvas>
-                        </div>
-                        <p class="chart-description">UHI exposure level comparison across different socio-demographic groups</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-chart-bar me-2"></i>Intervention Strategy Equity Ranking</h5>
-                        <div class="chart-wrapper">
-                            <canvas id="fairnessRankingChart" height="300"></canvas>
-                        </div>
-                        <p class="chart-description">Intervention strategy equity ranking based on MGD indicators</p>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Spatial Distribution Analysis -->
-            <div class="row mb-5">
-                <div class="col-lg-12">
-                    <div class="chart-container">
-                        <h5><i class="fas fa-map-marked-alt me-2"></i>Spatial Distribution Analysis</h5>
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="spatial-analysis-card">
-                                    <h6>High UHI Area Distribution</h6>
-                                    <div class="spatial-stats">
-                                        <div class="spatial-stat">
-                                            <span class="stat-number">23%</span>
-                                            <span class="stat-label">Urban Center</span>
-                                        </div>
-                                        <div class="spatial-stat">
-                                            <span class="stat-number">18%</span>
-                                            <span class="stat-label">Industrial Areas</span>
-                                        </div>
-                                        <div class="spatial-stat">
-                                            <span class="stat-number">15%</span>
-                                            <span class="stat-label">Transportation Hubs</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="spatial-analysis-card">
-                                    <h6>Low UHI Area Distribution</h6>
-                                    <div class="spatial-stats">
-                                        <div class="spatial-stat">
-                                            <span class="stat-number">35%</span>
-                                            <span class="stat-label">Parks & Green Spaces</span>
-                                        </div>
-                                        <div class="spatial-stat">
-                                            <span class="stat-number">28%</span>
-                                            <span class="stat-label">Water Body Surroundings</span>
-                                        </div>
-                                        <div class="spatial-stat">
-                                            <span class="stat-number">22%</span>
-                                            <span class="stat-label">Suburban Areas</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="spatial-analysis-card">
-                                    <h6>Environmental Feature Correlations</h6>
-                                    <div class="correlation-matrix">
-                                        <div class="correlation-item">
-                                            <span class="correlation-label">NDVI vs UHI</span>
-                                            <span class="correlation-value negative">-0.78</span>
-                                        </div>
-                                        <div class="correlation-item">
-                                            <span class="correlation-label">BCR vs UHI</span>
-                                            <span class="correlation-value positive">+0.65</span>
-                                        </div>
-                                        <div class="correlation-item">
-                                            <span class="correlation-label">Water vs UHI</span>
-                                            <span class="correlation-value positive">+0.42</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Equity Analysis -->
-    <section id="equity" class="section-padding bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <div class="section-header">
-                        <span class="section-badge">Social Equity</span>
-                        <h2 class="section-title">Equity Analysis</h2>
-                        <p class="section-subtitle">Examining the distribution of UHI exposure and intervention benefits across social groups</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5 g-4">
-                <div class="col-lg-6">
-                    <div class="equity-card">
-                        <h4><i class="fas fa-balance-scale me-2"></i>Socio-demographic Pattern Analysis</h4>
-                        <div class="correlation-table">
-                            <h6>Correlation between UHI and Socio-demographic Variables:</h6>
-                            <table class="table table-sm">
-                                <thead>
-                                    <tr>
-                                        <th>Social Indicators</th>
-                                        <th>Summer Day</th>
-                                        <th>Summer Night</th>
-                                        <th>Winter Day</th>
-                                        <th>Winter Night</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Visible Minorities</td>
-                                        <td class="text-danger">0.42***</td>
-                                        <td>0.08*</td>
-                                        <td class="text-danger">0.28***</td>
-                                        <td>0.17**</td>
-                                    </tr>
-                                    <tr>
-                                        <td>No Education Certificate</td>
-                                        <td class="text-danger">0.41***</td>
-                                        <td>0.005</td>
-                                        <td class="text-danger">0.34***</td>
-                                        <td>-0.03</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Low-Income Population</td>
-                                        <td class="text-success">-0.15**</td>
-                                        <td class="text-danger">0.23***</td>
-                                        <td>0.01</td>
-                                        <td class="text-danger">0.32***</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Unemployment Rate</td>
-                                        <td>0.11*</td>
-                                        <td>0.001</td>
-                                        <td>0.10*</td>
-                                        <td>0.05</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <p class="text-muted small">Note: *** p < 0.001, ** p < 0.01, * p < 0.05</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="equity-card">
-                        <h4><i class="fas fa-chart-pie me-2"></i>Intervention Strategy Equity Assessment</h4>
-                        <div class="intervention-analysis">
-                            <h6>Equity Ranking Based on MGD Indicators:</h6>
-                            <div class="intervention-ranking">
-                                <div class="ranking-item">
-                                    <span class="rank-number">1</span>
-                                    <span class="intervention-name">NDVI Enhancement</span>
-                                    <span class="fairness-score">Highest Equity</span>
-                                </div>
-                                <div class="ranking-item">
-                                    <span class="rank-number">2</span>
-                                    <span class="intervention-name">Water Body Proximity</span>
-                                    <span class="fairness-score">High Equity</span>
-                                </div>
-                                <div class="ranking-item">
-                                    <span class="rank-number">3</span>
-                                    <span class="intervention-name">Watercourse Proximity</span>
-                                    <span class="fairness-score">High Equity</span>
-                                </div>
-                                <div class="ranking-item">
-                                    <span class="rank-number">4</span>
-                                    <span class="intervention-name">Road Density Adjustment</span>
-                                    <span class="fairness-score">Medium Equity</span>
-                                </div>
-                                <div class="ranking-item">
-                                    <span class="rank-number">5</span>
-                                    <span class="intervention-name">Building Coverage Adjustment</span>
-                                    <span class="fairness-score">Medium Equity</span>
-                                </div>
-                                <div class="ranking-item">
-                                    <span class="rank-number">6</span>
-                                    <span class="intervention-name">Building Height Increase</span>
-                                    <span class="fairness-score">Low Equity</span>
-                                </div>
-                                <div class="ranking-item">
-                                    <span class="rank-number">7</span>
-                                    <span class="intervention-name">POI Density Increase</span>
-                                    <span class="fairness-score">Low Equity</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-lg-12">
-                    <div class="equity-insights">
-                        <h4><i class="fas fa-lightbulb me-2"></i>Key Insights</h4>
-                        <div class="row g-4">
-                            <div class="col-lg-4">
-                                <div class="insight-item">
-                                    <i class="fas fa-exclamation-triangle"></i>
-                                    <h6>Systemic Thermal Exposure Inequality</h6>
-                                    <p>Visible minority and no-education-certificate groups show positive correlations in all scenarios, indicating systemic thermal vulnerability that persists across seasons and times.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="insight-item">
-                                    <i class="fas fa-clock"></i>
-                                    <h6>Temporal Vulnerability Dependencies</h6>
-                                    <p>Low-income groups show negative correlations during summer days but positive correlations during nights and winter, indicating complex temporal dependencies in thermal vulnerability.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="insight-item">
-                                    <i class="fas fa-leaf text-success"></i>
-                                    <h6>Equity of Nature-Based Interventions</h6>
-                                    <p>Nature-based strategies (greening and water proximity) not only provide the strongest cooling effects but also ensure the fairest distribution of benefits across social groups.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Conclusion -->
     <section id="conclusion" class="section-padding">
         <div class="container">
@@ -1205,7 +864,7 @@
                     <p class="text-muted small">Empirical research based on 1,660 dissemination areas in the Vancouver region</p>
                 </div>
                 <div class="col-lg-6 text-end">
-                    <p>&copy; 2024 Urban Heat Island Research. All rights reserved.</p>
+                    <p>&copy; 2025 Urban Heat Island Research. All rights reserved.</p>
                     <p>Data Source: Vancouver Regional Environmental Data (2018)</p>
                     <p class="text-muted small">Study Location: Vancouver Metropolitan Area | Data Year: 2018</p>
                 </div>
@@ -1218,6 +877,9 @@
                         </a>
                         <a href="maps/comparison_map_3d.html" class="text-white me-3" target="_blank">
                             <i class="fas fa-cube"></i> 3D Interactive Map
+                        </a>
+                        <a href="https://www.mdpi.com/2075-5309/15/21/3820?utm_source=researchgate.net&utm_medium=article" class="text-white me-3" target="_blank">
+                            <i class="fas fa-file-alt"></i> Related Paper
                         </a>
                         <span class="text-white-50">
                             <i class="fas fa-thermometer-half"></i> UHI Research | 
