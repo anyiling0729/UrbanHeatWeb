@@ -49,7 +49,7 @@ UrbanHeatWeb/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/hmr-xu/UrbanHeatWeb.git
+   git clone https://github.com/anyiling0729/UrbanHeatWeb.git
    cd UrbanHeatWeb
    ```
 
@@ -93,4 +93,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-- Project Link: [https://github.com/hmr-xu/UrbanHeatWeb](https://github.com/hmr-xu/UrbanHeatWeb)
+- Project Link: [https://github.com/anyiling0729/UrbanHeatWeb](https://github.com/anyiling0729/UrbanHeatWeb)
